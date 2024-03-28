@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.tpdospila;
 
 /**
@@ -88,7 +84,11 @@ public class TpDosPila {
     }
     
     /*
-    5- 
+    5- Inizilizamos la variable "contenido" y con el valor del primer nodo de la 
+    pila, con un loop do-while imprimimos el valor del nodo y pasamos al siguiente
+    nodo mientras contenido no sea null.
+    En el caso que la pila está vacía el try and catch manejan el error y muesta un mensaje 
+    de "Pila Vacía"
     
     */    
     public void verContenido() {
